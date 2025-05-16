@@ -1,8 +1,14 @@
 
-# 🧠 TypeScript & React 8기 커리큘럼 저장소
+# UMC WEB 8기 Workbook Repository
+> ** WEB C팀**
+## 👥 스터디원 소개
 
-> **동국대학교 UMC Web 8기 | WEB C팀**  
-> 팀 프로젝트와 함께 성장하는 웹 프론트엔드 여정
+| 혀니 <br> (류동현) | 아르민 <br> (안아름) | 제이 <br> (김윤지) |
+| :----------------: | :------------------: | :----------------: |
+| <img src="./images/donghyun.jpg" width="100" height="100"/> | <img src="./images/areum.jpg" width="100" height="100"/> | <img src="./images/yoonji.jpg" width="100" height="100"/> |
+| [`@fbehdgus`](https://github.com/fbehdgus) | [`@arumicube`](https://github.com/arumicube) | [`@yooncandooit`](https://github.com/yooncandooit) |
+| ⭐ 그래도 해야지 어떡해 | ⭐ 달려보자구! ⸜(ᐢ ᵕ ᐢ)⸝‍ | ⭐ 제명되지말자 |
+
 
 ---
 
@@ -58,16 +64,6 @@ npm install
 # 3. 개발 서버 실행
 npm run dev
 ````
-
----
-
-## 👥 스터디원 소개
-
-| 혀니 <br> (류동현) | 아르민 <br> (안아름) | 제이 <br> (김윤지) |
-| :----------------: | :------------------: | :----------------: |
-| <img src="./images/donghyun.jpg" width="100" height="100"/> | <img src="./images/areum.jpg" width="100" height="100"/> | <img src="./images/yoonji.jpg" width="100" height="100"/> |
-| [`@fbehdgus`](https://github.com/fbehdgus) | [`@arumicube`](https://github.com/arumicube) | [`@yooncandooit`](https://github.com/yooncandooit) |
-| ⭐ 그래도 해야지 어떡해 | ⭐ 달려보자구! ⸜(ᐢ ᵕ ᐢ)⸝‍ | ⭐ 제명되지말자 |
 
 ---
 
