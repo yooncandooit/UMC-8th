@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta태그를 사용하여, 다양한 속성 지정 가능 -->
+    <!-- 문자열 세트 (charset): UTF-8 인코딩 : 다양한 언어 꺠짐 현상을 나타냄 -->
+    <meta charset="UTF-8" />
+    <!-- http-equiv IE 주소바에 호환성 안보이게 content, Edge렌더링 엔진 쓰게 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 사용자의 디바이스 크기에 맞게 콘텐츠를 표시할 수 있도록 명시 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMC Todo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./dist/script.js" defer></script>
+  </head>
+  <body>
+    <div class="todo-container">
+      <h1 class="todo-container__header">Jay's Todo</h1>
+      <form id="todo-form" class="todo-container__form">
+        <input
+          type="text"
+          id="todo-input"
+          class="todo-container__input"
+          placeholder="할 일을 입력하세요"
+          required
+        />
+        <button type="submit" class="todo-container__btn">할 일 추가</button>
+      </form>
+      <div class="render-container">
+        <div class="render-container__section">
+          <h2 class="render-container__title">Todo</h2>
+          <ul id="todo-list" class="render-container__list"></ul>
+        </div>
+
+        <div class="render-container__section">
+          <h2 class="render-container__title">Done</h2>
+          <ul id="done-list" class="render-container__list"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
